@@ -1,4 +1,5 @@
 # Add a year column to temperatures
+import pandas as pd
 temperatures["year"]=temperatures["date"].dt.year
 
 # Pivot avg_temp_c by country and city vs year
